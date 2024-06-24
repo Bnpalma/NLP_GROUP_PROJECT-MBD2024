@@ -69,7 +69,7 @@ def page_dataset_comparison():
     
 # Page for comparing a CV against a single job posting
 def page_single_comparison():
-    st.image(image_banner.png', use_column_width=True)
+    st.image('image_banner.png', use_column_width=True)
     st.title("CV vs Job Posting Comparison")
     st.write("Upload your CV and a job posting to see if you're a good fit.")
     
